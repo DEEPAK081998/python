@@ -1,7 +1,5 @@
 days=['mon','tues','wed','thurs','fri','sat','sun']
 
-output=[4,4,4,4,4,4,4]
-
 a=int(input(" Enter the number of inputs : "))
 c=[None]*a
 d=[None]*a
@@ -13,6 +11,7 @@ for i in range(0,a):
     c[i]=int(c[i])
     
 def count(int,str):
+    output=[4,4,4,4,4,4,4]
     i=days.index(str)    
     if int==28:
         print(*output)
